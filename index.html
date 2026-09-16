@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For Sevgilim ♡</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Georgia,'Times New Roman',serif;background:radial-gradient(circle at top,#263451,#101522 55%,#090c13);color:#f8f3ee}
+.container{max-width:760px;margin:auto;padding:48px 20px 70px}
+.home{text-align:center}
+.eyebrow{letter-spacing:4px;text-transform:uppercase;font-size:11px;opacity:.7}
+h1{font-size:clamp(38px,9vw,66px);font-weight:400;margin:12px 0 8px}
+.intro{font-size:17px;line-height:1.7;max-width:580px;margin:0 auto 35px;color:#ddd7d2}
+.grid{display:grid;gap:14px}
+.card{width:100%;text-align:left;padding:20px 22px;border:1px solid rgba(255,255,255,.16);border-radius:18px;background:rgba(255,255,255,.07);color:#fff;cursor:pointer;transition:.25s;backdrop-filter:blur(10px)}
+.card:hover{transform:translateY(-3px);background:rgba(255,255,255,.12)}
+.card span{display:block;font-size:18px}
+.card small{display:block;margin-top:7px;opacity:.55;font-size:12px}
+.letter{display:none}
+.back{border:0;background:none;color:#d9d4cf;padding:8px 0 18px;cursor:pointer;font:inherit}
+.paper{position:relative;background:#f4eee6;color:#302b2a;border-radius:5px;padding:48px clamp(25px,7vw,62px);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.wax{position:absolute;top:-20px;left:50%;transform:translateX(-50%);width:44px;height:44px;border-radius:50%;background:#18243b;color:#f4eee6;display:grid;place-items:center;font-size:23px;box-shadow:0 5px 12px #0005}
+.paper h2{font-weight:400;font-size:28px;line-height:1.25;margin:0 0 28px;color:#17233a}
+.body{font-size:16px;line-height:1.9}
+.footer{text-align:center;margin-top:35px;opacity:.5;font-size:12px;letter-spacing:1px}
+</style>
+</head>
+<body>
+<main class="container">
+<div id="home" class="home">
+<div class="eyebrow">a little box of letters</div>
+<h1>For Sevgilim ♡</h1>
+<p class="intro">I can't always be there beside you, so I left you little pieces of me for the moments when you need them.<br><br>Don't open everything at once. Open them when the title feels like you.</p>
+<div class="grid"><button class="card" onclick="openLetter(0)"><span>🌙 Open when you can&#x27;t sleep</span><small>tap to open ♡</small></button>
+<button class="card" onclick="openLetter(1)"><span>🌧️ Open when you had a horrible day</span><small>tap to open ♡</small></button>
+<button class="card" onclick="openLetter(2)"><span>🫂 Open when you miss me</span><small>tap to open ♡</small></button>
+<button class="card" onclick="openLetter(3)"><span>💤 Open when you feel exhausted</span><small>tap to open ♡</small></button>
+<button class="card" onclick="openLetter(4)"><span>☀️ Open when you are happy</span><small>tap to open ♡</small></button>
+<button class="card" onclick="openLetter(5)"><span>🏡 Open this when you think about our future</span><small>tap to open ♡</small></button>
+<button class="card" onclick="openLetter(6)"><span>🥺 Open this when you are mad at me</span><small>tap to open ♡</small></button></div>
+<div class="footer">made with love, from very far away ♡</div>
+</div>
+
+    <section class="letter" id="letter-0">
+      <button class="back" onclick="showHome()">← Back to our letters</button>
+      <div class="paper">
+        <div class="wax">♡</div>
+        <h2>🌙 Open when you can&#x27;t sleep</h2>
+        <div class="body">Hi Sevgilim, you couldn&#x27;t sleep huh?<br><br>Whatever it is in your head and holding you back from sleeping (or maybe you had so much coffee like me who knows) you don&#x27;t need to worry about that. Put it into the waiting list, get comfortable under your blanket and don&#x27;t forget to dream about me. 😝<br><br>Did I ever tell you how much I love your plaid pajamas. They look sexy on you 🫠<br><br>I promise one day I&#x27;ll wear my pajamas that you love when I&#x27;m sleeping next to you.<br><br>I can&#x27;t wait to fall asleep in your arms one day~<br><br>“I sleep so I can see you &#x27;cause I hate to wait so long.”</div>
+      </div>
+    </section>
+    
+    <section class="letter" id="letter-1">
+      <button class="back" onclick="showHome()">← Back to our letters</button>
+      <div class="paper">
+        <div class="wax">♡</div>
+        <h2>🌧️ Open when you had a horrible day</h2>
+        <div class="body">If you are reading this, today wasn&#x27;t kind to you or you feel overstimulated.<br><br>First I want you to sit down for a moment, take a breath because you don&#x27;t need to fix anything and everything can wait until tomorrow. You don&#x27;t need to smile, be productive, or pretend you&#x27;re okay. Forget about the work and people.<br><br>Today may not be perfect but you are a perfect partner and if you need me I always got your back from a thousand kilometers away hehe~<br><br>You did what you could today and that&#x27;s enough. Even tomorrow doesn&#x27;t have to be perfect; it needs to be another day.<br><br>I just want you to know that I want to make your life easy so you can always shine like my moon~</div>
+      </div>
+    </section>
+    
+    <section class="letter" id="letter-2">
+      <button class="back" onclick="showHome()">← Back to our letters</button>
+      <div class="paper">
+        <div class="wax">♡</div>
+        <h2>🫂 Open when you miss me</h2>
+        <div class="body">I wonder what I am doing right now because I can never leave you enough to miss me hehehe.<br><br>But in case I miss you too...<br><br>You&#x27;ve become the favorite part of myself and I can&#x27;t find any words to describe how much you bring to my life: solace and happiness.<br><br>Don&#x27;t forget this annoying distance is temporary and one day we won&#x27;t get a chance to miss each other because ben her zaman kuyruğun gibi peşinde gezeceğim xjdkhxkd.<br><br>When I miss you I read through our texts and look at your photos like a lovesick little girl and I&#x27;m not ashamed of that~</div>
+      </div>
+    </section>
+    
+    <section class="letter" id="letter-3">
+      <button class="back" onclick="showHome()">← Back to our letters</button>
+      <div class="paper">
+        <div class="wax">♡</div>
+        <h2>💤 Open when you feel exhausted</h2>
+        <div class="body">You&#x27;ve made it through a very exhausting day. Congratulations~<br><br>Now it&#x27;s time to finally get relaxed. I know you like to watch Prens or Muhteşem Yüzyıl, why don&#x27;t you give it a go?<br><br>You don&#x27;t have to be productive and you don&#x27;t need to think, but I&#x27;m very proud of you because I know you are trying to do your best.<br><br>Sometimes staring at the ceiling with no thoughts is the best you can do dgsngddngx.<br><br>But if you need me just call me and say “time off” like I did as a kid. We don&#x27;t have to talk, we don&#x27;t have to do something. I love to just exist together with you.<br><br>You&#x27;ll rest and you&#x27;ll feel better tomorrow~</div>
+      </div>
+    </section>
+    
+    <section class="letter" id="letter-4">
+      <button class="back" onclick="showHome()">← Back to our letters</button>
+      <div class="paper">
+        <div class="wax">♡</div>
+        <h2>☀️ Open when you are happy</h2>
+        <div class="body">Yeyy~ I can see the dimples through your smile. I&#x27;m also smiling just thinking about your smile as I text this very letter.<br><br>I love it when we laugh at stupid things together.<br><br>You should tell me why you are happy asap~ I&#x27;m already excited to listen!<br><br>Whatever makes you happy, don&#x27;t forget to cherish the moment.<br><br>I&#x27;ll laugh at your hurma joke forever dhfkehdjehdnrbd</div>
+      </div>
+    </section>
+    
+    <section class="letter" id="letter-5">
+      <button class="back" onclick="showHome()">← Back to our letters</button>
+      <div class="paper">
+        <div class="wax">♡</div>
+        <h2>🏡 Open this when you think about our future</h2>
+        <div class="body">Ever since we started dating I&#x27;ve always thought what it&#x27;d be to have a future with you~<br><br>When you&#x27;d propose to me, where we&#x27;d get married, how many kids we&#x27;ll have — regardless of those things I&#x27;ve imagined waking up next to you in the bed, clean our home together, cook our favorite food, going out on dates, get drunk.<br><br>I&#x27;m willing to come to your city so we can make our dreams come true when I&#x27;m done with my school.<br><br>We need to go perfume shopping together. It&#x27;s gonna be so fun, I&#x27;m already excited.<br><br>I&#x27;m sure we are gonna meet soon and do all the things we said we would and I&#x27;ll do my best to make it happen.<br><br>We will face everything together and build a family with you~💙</div>
+      </div>
+    </section>
+    
+    <section class="letter" id="letter-6">
+      <button class="back" onclick="showHome()">← Back to our letters</button>
+      <div class="paper">
+        <div class="wax">♡</div>
+        <h2>🥺 Open this when you are mad at me</h2>
+        <div class="body">Ups... I don&#x27;t know what happened but I know that I&#x27;ve never meant to break your heart ever.<br><br>I know I can be a very stubborn person when I&#x27;m upset, but please be patient with me because I carry more emotions than I can handle.<br><br>We will have ups and downs but I&#x27;ll always love you in the end.<br><br>Just tell me “I love you” and my anger will fade away.<br><br>I am genuinely sorry for why you are mad. Even though when we are mad at each other my love for you won&#x27;t get any less and I hope you can forgive me 🙏🏻<br><br>I care about your feelings and our relationship is more important than misunderstandings or mistakes.<br><br>When you feel ready, please communicate with me and remember how much you mean to me.</div>
+      </div>
+    </section>
+    
+</main>
+<script>
+function openLetter(i){
+ document.getElementById('home').style.display='none';
+ document.querySelectorAll('.letter').forEach(x=>x.style.display='none');
+ document.getElementById('letter-'+i).style.display='block';
+ window.scrollTo(0,0);
+ history.pushState({letter:i},'', '#letter-'+i);
+}
+function showHome(){
+ document.querySelectorAll('.letter').forEach(x=>x.style.display='none');
+ document.getElementById('home').style.display='block';
+ history.pushState({},'', location.pathname);
+ window.scrollTo(0,0);
+}
+window.addEventListener('popstate',()=>{
+ const m=location.hash.match(/letter-(\d+)/);
+ if(m) openLetter(Number(m[1])); else showHome();
+});
+</script>
+</body>
+</html>
